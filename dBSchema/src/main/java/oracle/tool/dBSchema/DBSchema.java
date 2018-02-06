@@ -36,7 +36,7 @@ public class DBSchema {
 		ArrayList<Entity> entity = new ArrayList<Entity>();
 		
 		/*This map stores the TableName as a key and all other details about column in List object which stored
-		in the map as a value. */
+		in the map as a value.. */
 		Map<String, List<Object>> tableToColumnsMap= new HashMap<String, List<Object>>();
 		
 		
